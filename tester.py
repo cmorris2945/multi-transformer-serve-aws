@@ -8,7 +8,6 @@ import pandas as pd
 # 1. Ensure HF token is visible
 # If you exported HUGGINGFACEHUB_API_TOKEN, transformers will pick it up.
 # Otherwise, you can also set:
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
